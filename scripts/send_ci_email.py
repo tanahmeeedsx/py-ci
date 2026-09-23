@@ -34,7 +34,7 @@ def main() -> None:
 
     if status == "success":
         subject = f"✅ CI Passed — {repository}"
-        headline = "The GitHub Actions CI pipeline completed)"
+        headline = "The GitHub Actions CI pipeline finished successfully! 🎉)"
     else:
         subject = f"❌ CI Failed — {repository}"
         headline = f"The GitHub Actions CI pipeline finished {status} :(."
